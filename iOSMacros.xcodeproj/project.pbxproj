@@ -16,6 +16,8 @@
 		65A3FE652591C80700CD877B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE642591C80700CD877B /* main.m */; };
 		65A3FE6F2591C80700CD877B /* iOSMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE6E2591C80700CD877B /* iOSMacrosTests.m */; };
 		65A3FE7A2591C80700CD877B /* iOSMacrosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE792591C80700CD877B /* iOSMacrosUITests.m */; };
+		65A3FE8D2591C8AE00CD877B /* MTFoundationMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE8C2591C8AE00CD877B /* MTFoundationMacro.m */; };
+		65A3FE932591C8C000CD877B /* MTUIKitMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE922591C8C000CD877B /* MTUIKitMacro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,11 @@
 		65A3FE752591C80700CD877B /* iOSMacrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMacrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A3FE792591C80700CD877B /* iOSMacrosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMacrosUITests.m; sourceTree = "<group>"; };
 		65A3FE7B2591C80700CD877B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A3FE8B2591C8AE00CD877B /* MTFoundationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFoundationMacro.h; sourceTree = "<group>"; };
+		65A3FE8C2591C8AE00CD877B /* MTFoundationMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFoundationMacro.m; sourceTree = "<group>"; };
+		65A3FE912591C8C000CD877B /* MTUIKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUIKitMacro.h; sourceTree = "<group>"; };
+		65A3FE922591C8C000CD877B /* MTUIKitMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUIKitMacro.m; sourceTree = "<group>"; };
+		65A3FE982591C8F800CD877B /* MTMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +122,11 @@
 				65A3FE602591C80700CD877B /* LaunchScreen.storyboard */,
 				65A3FE632591C80700CD877B /* Info.plist */,
 				65A3FE642591C80700CD877B /* main.m */,
+				65A3FE8B2591C8AE00CD877B /* MTFoundationMacro.h */,
+				65A3FE8C2591C8AE00CD877B /* MTFoundationMacro.m */,
+				65A3FE912591C8C000CD877B /* MTUIKitMacro.h */,
+				65A3FE922591C8C000CD877B /* MTUIKitMacro.m */,
+				65A3FE982591C8F800CD877B /* MTMacro.h */,
 			);
 			path = iOSMacros;
 			sourceTree = "<group>";
@@ -266,10 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A3FE932591C8C000CD877B /* MTUIKitMacro.m in Sources */,
 				65A3FE5A2591C80300CD877B /* ViewController.m in Sources */,
 				65A3FE542591C80300CD877B /* AppDelegate.m in Sources */,
 				65A3FE652591C80700CD877B /* main.m in Sources */,
 				65A3FE572591C80300CD877B /* SceneDelegate.m in Sources */,
+				65A3FE8D2591C8AE00CD877B /* MTFoundationMacro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
