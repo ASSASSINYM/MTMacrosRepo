@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65207CB925A2C6E4003E4A82 /* #if#ifdef#define等宏定义使用 - 简书.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65207CB825A2C6E4003E4A82 /* #if#ifdef#define等宏定义使用 - 简书.pdf */; };
 		65A3FE542591C80300CD877B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE532591C80300CD877B /* AppDelegate.m */; };
 		65A3FE572591C80300CD877B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE562591C80300CD877B /* SceneDelegate.m */; };
 		65A3FE5A2591C80300CD877B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FE592591C80300CD877B /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65207CB825A2C6E4003E4A82 /* #if#ifdef#define等宏定义使用 - 简书.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "#if#ifdef#define等宏定义使用 - 简书.pdf"; sourceTree = "<group>"; };
 		65A3FE4F2591C80300CD877B /* iOSMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A3FE522591C80300CD877B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65A3FE532591C80300CD877B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		65A3FE512591C80300CD877B /* iOSMacros */ = {
 			isa = PBXGroup;
 			children = (
+				65207CB825A2C6E4003E4A82 /* #if#ifdef#define等宏定义使用 - 简书.pdf */,
 				65A3FE522591C80300CD877B /* AppDelegate.h */,
 				65A3FE532591C80300CD877B /* AppDelegate.m */,
 				65A3FE552591C80300CD877B /* SceneDelegate.h */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A3FE622591C80700CD877B /* LaunchScreen.storyboard in Resources */,
+				65207CB925A2C6E4003E4A82 /* #if#ifdef#define等宏定义使用 - 简书.pdf in Resources */,
 				65A3FE5F2591C80700CD877B /* Assets.xcassets in Resources */,
 				65A3FE5D2591C80300CD877B /* Main.storyboard in Resources */,
 			);
